@@ -6,7 +6,6 @@
 					{{account.name}}
 				</div>
 			</div>
-			<i v-if="isSelected" class="fa fa-chevron-right"></i>
 		</div>
 		<div class="child" v-for="child in account.children" :name="child.id" :key="child.id">
 			<SidebarRow
